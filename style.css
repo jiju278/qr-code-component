@@ -11,6 +11,7 @@
     --clr-neutral-400: hsl(220, 15%, 55%);
     --clr-neutral-700: hsl(218, 44%, 22%);
     --fs-p: 1rem;
+    --fs-h1: 1.6rem;
     --ff: 'Outfit', sans-serif;
     --fw-regular: 400;
     --fw-bold: 700;
@@ -27,7 +28,7 @@ body {
     margin: auto;
     padding: 1.7rem;
     text-align: center;
-    border-radius: 15px;
+    border-radius: 20px;
     
 }
 .component__qrcode {
@@ -36,15 +37,18 @@ body {
     height: auto;
     max-width: 300px;
     width: 100%;
-    border-radius: 8px;
+    border-radius: 20px;
 }
 
 .component__title {
     font-weight: var(--fw-bold);
+    font-size: var(--fs-h1);
+    color: var(--clr-neutral-700);
     
 }
 
 .component__p {
     font-size: var(--fs-p);
     font-weight: var(--fw-regular);
+    color: var(--clr-neutral-400);
 }
